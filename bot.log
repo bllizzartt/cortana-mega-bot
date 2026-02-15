@@ -1,0 +1,9 @@
+2026-02-15 18:14:30,427 - __main__ - INFO - Starting Mega Bot...
+2026-02-15 18:14:30,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8572628843:AAFFl71Dpj3DRyAYJrCRJ66sYBGKJV3y9PA/getMe "HTTP/1.1 200 OK"
+2026-02-15 18:14:30,551 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8572628843:AAFFl71Dpj3DRyAYJrCRJ66sYBGKJV3y9PA/deleteWebhook "HTTP/1.1 200 OK"
+2026-02-15 18:14:30,552 - telegram.ext.Application - INFO - Application started
+2026-02-15 18:14:32,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8572628843:AAFFl71Dpj3DRyAYJrCRJ66sYBGKJV3y9PA/getUpdates "HTTP/1.1 409 Conflict"
+2026-02-15 18:14:32,714 - __main__ - ERROR - Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-02-15 18:14:38,913 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8572628843:AAFFl71Dpj3DRyAYJrCRJ66sYBGKJV3y9PA/getUpdates "HTTP/1.1 200 OK"
+2026-02-15 18:14:38,914 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-02-15 18:14:38,914 - telegram.ext.Application - INFO - Application.stop() complete
